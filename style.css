@@ -1,0 +1,30 @@
+#top {
+  background-image: url("./front-page-group-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem;
+}
+
+.input-group-text {
+  background-color: white !important;
+  border: none !important;
+}
+
+.form-control {
+  border: none;
+}
+
+#left-input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#right-icon {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+#input-group {
+  border-left: solid 1px rgb(144, 144, 145);
+}
