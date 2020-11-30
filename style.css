@@ -1,9 +1,17 @@
 #top {
-  background-image: url("./front-page-group-2.jpg");
+  background-image: url('./front-page-group-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 5rem;
+}
+
+a {
+  font-size: 1.25rem !important;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .input-group-text {
@@ -27,4 +35,12 @@
 
 #input-group {
   border-left: solid 1px rgb(144, 144, 145);
+}
+
+#search-input {
+  flex: 6 !important;
+}
+
+#select-input {
+  flex: 2 !important;
 }
